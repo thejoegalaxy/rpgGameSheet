@@ -1,0 +1,43 @@
+.topbarContainer {
+  height: 50px;
+  background-color: #8a2be2;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  justify-content: center;
+}
+.importExportDiv {
+  display: flex;
+  align-items: center;
+}
+.exportDiv {
+  color: white;
+  padding: 5px;
+}
+.importDiv {
+  color: white;
+  padding: 5px;
+}
+
+.topbarRPGButton,
+.topbarRPGButton:link,
+.topbarRPGButton:visited {
+  height: 31px;
+  border-radius: 10px;
+  border: none;
+  background-color: #450b7a;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100px;
+  margin-top: 3px;
+  transition: all 0.3s;
+}
+
+.topbarRPGButton:hover,
+.topbarRPGButton:active {
+  background-color: #639;
+}
