@@ -1,3 +1,10 @@
+If you get this error, open the package.json file and ctrl-s and it will go away.
+Compiled with problems:
+×
+ERROR
+[eslint] Plugin "react" was conflicted between "package.json » eslint-config-react-app » C:\Users\cdavi\desktop\projects\rpg\rpg-gamesheet\node_modules\eslint-config-react-app\base.js" and "BaseConfig » C:\Users\cdavi\Desktop\projects\rpg\rpg-gamesheet\node_modules\eslint-config-react-app\base.js".
+
+There is a conflict in the casing C:\Users\Jalloh|desktop\reactapp\test.... whereas the nodemodules is looking for C:\Users\Jalloh|Desktop\Reactapp\test.... This is a windows specific problem, and previously react would have run the app regardless of this difference. Not anymore it seems. The solution I used was to locate the folder and open with code; that ensures that the path matches directly with what is stored in node modules Here is the link
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
