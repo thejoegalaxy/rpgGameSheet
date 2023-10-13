@@ -8,27 +8,3 @@
 .characterSheetWrapper {
   padding: 20px;
 }
-
-/* ------------- responsive ------------- */
-@media (max-width: 1295px) {
-  /* .homeContainer {
-    width: 1260px;
-  } */
-}
-
-@media (max-width: 979px) {
-  .rightbar {
-    display: none;
-  }
-  .sidebar {
-    display: none;
-  }
-}
-@media (max-width: 805px) {
-  .sidebar {
-    display: none;
-  }
-  /* .rightbar {
-    display: none;
-  } */
-}
